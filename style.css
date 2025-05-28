@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #a3ff97;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px rgb(250, 95, 224);
+}
+
+.preguntas {
+    text-align: left;
+    padding: 5rem;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(252, 25, 176);
+    box-shadow: 10px 5px 10px rgb(250, 95, 224);
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  /* Mobile styles */
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  /* Tablet styles */
+}
+
+/* Laptops */
+@media screen and (max-width: 1024px) {
+  /* Laptop styles */
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  /* Desktop styles */
+}
